@@ -103,7 +103,15 @@ a {
     gap: 50px;
     padding: 0px 300px;
     align-items: center;
+    justify-content: center;
     text-align: center;
+}
+
+.info .card-container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .info .card-container .card .illustration {
@@ -111,4 +119,31 @@ a {
     border-radius: 20px;
     width: 160px;
     height: 180px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 400px;
+    padding: 0 300px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote div {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.quote b {
+    align-self: flex-end;
+    font-size: 24px;
 }
