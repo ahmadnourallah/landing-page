@@ -147,3 +147,42 @@ a {
     align-self: flex-end;
     font-size: 24px;
 }
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call .call-card {
+    background-color: #3B82F6;
+    width: 1000px;
+    height: 150px;
+    padding: 20px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call .call-card p {
+    margin: 0;
+    color: white;
+}
+
+.call .call-card .emphasis {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call .call-card button {
+    height: 40px;
+    width: 120px;
+    background-color: #3B82F6;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
