@@ -7,7 +7,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 30px;
     font-family: Roboto, sans-serif;
 }
 
@@ -28,7 +28,7 @@ a {
 
 .header {
     padding: 20px 200px;
-    height: 550px;
+    height: 580px;
     color: white;
     background-color: #1F2937;
     justify-content: center;
@@ -84,4 +84,31 @@ a {
     padding: 8px 30px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info .card-container {
+    display: flex;
+    gap: 50px;
+    padding: 0px 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.info .card-container .card .illustration {
+    border: 5px solid #367FF5;
+    border-radius: 20px;
+    width: 160px;
+    height: 180px;
 }
