@@ -41,7 +41,7 @@ a {
     gap: 30%;
 }
 
-.header .nav, .hedaer .hero {
+.header .nav, .header .hero {
     justify-content: space-between;
 }
 
